@@ -99,6 +99,36 @@ nav a {
   align-items: center;
 }
 
+.portal-home {
+  gap: 8px;
+  padding: 0 10px;
+  border-radius: 8px;
+  color: var(--burgundy);
+  font-weight: 800;
+  background: rgba(255, 249, 239, .72);
+  border: 1px solid rgba(139, 30, 63, .18);
+}
+
+.portal-home-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--green);
+  color: var(--paper);
+}
+
+.portal-home-icon svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .hero {
   position: relative;
   min-height: calc(100svh - 74px);
