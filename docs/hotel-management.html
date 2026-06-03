@@ -9,7 +9,7 @@
 <body>
   <header class="site-header">
     <a class="mark" href="index.html">知識是永遠的勇者｜葉佳山網站</a>
-    <nav><a href="index.html#teaching">教學場域</a><a href="#ppt-view">PPT 瀏覽</a></nav>
+    <nav><a href="index.html#teaching">教學場域</a><a href="#hotel-upload">教材上傳</a><a href="#ppt-view">PPT 瀏覽</a></nav>
   </header>
   <main>
     <section class="hero">
@@ -28,8 +28,63 @@
         <article class="lesson-card"><h3>顧客體驗</h3><p>服務接點、旅程地圖與體驗改善。</p></article>
       </div>
     </section>
+    <section id="hotel-upload" class="section alt-section">
+      <div class="inner">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Teaching Works</p>
+            <h2>旅館管理教材上傳</h2>
+          </div>
+          <p>旅館管理系列可上傳課程照片、服務流程文章、個案報告與數位教材 PDF。</p>
+        </div>
+        <div class="upload-panel" data-upload-panel="旅館管理教材">
+          <div class="upload-controls">
+            <label class="icon-upload">
+              <input type="file" accept="image/*" data-upload-file>
+              <span class="upload-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M12 3v11"></path>
+                  <path d="m7 8 5-5 5 5"></path>
+                  <path d="M5 14v5h14v-5"></path>
+                </svg>
+              </span>
+              <span>照片</span>
+            </label>
+            <input type="text" maxlength="24" placeholder="教材標題" data-upload-title>
+            <select data-upload-tag aria-label="教材分類">
+              <option value="定製化服務">定製化服務</option>
+              <option value="客務管理">客務管理</option>
+              <option value="房務管理">房務管理</option>
+              <option value="個案報告">個案報告</option>
+            </select>
+          </div>
+          <textarea maxlength="360" placeholder="教材摘要、課堂文章或服務流程說明" data-upload-body></textarea>
+          <div class="upload-actions">
+            <button class="button primary" type="button" data-upload-submit>送出教材</button>
+            <p class="upload-status" data-upload-status aria-live="polite"></p>
+          </div>
+          <div class="upload-preview" data-upload-preview>尚未選擇照片</div>
+          <div class="entry-grid" data-upload-list>
+            <article class="entry-card">
+              <div class="entry-image pdf-entry-icon">
+                <span class="upload-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"></path><path d="M14 3v5h5"></path><path d="M9 14h6"></path><path d="M9 17h4"></path></svg>
+                </span>
+              </div>
+              <div>
+                <span>PDF 數位教材</span>
+                <h3>旅館管理之定製化服務</h3>
+                <p>113.2 學期前導式數位教材製作暨翻轉教學計畫，聚焦 Fine Customized Service、Concierge 訂製化管理與 Butler Service，透過影片、分組討論與業界實例提升旅館競爭優勢。</p>
+                <a class="text-link" href="assets/teaching/hotel-fine-customized-service.pdf" target="_blank" rel="noopener">觀看 PDF</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="ppt-view" class="section"><div class="inner"><p class="notice">旅館管理系列 PPT 瀏覽頁建置中，未提供下載。</p></div></section>
   </main>
   <footer class="footer"><p>旅館管理系列｜葉佳山教學網站</p></footer>
+  <script src="portal.js?v=upload-tools"></script>
 </body>
 </html>

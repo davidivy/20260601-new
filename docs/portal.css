@@ -431,6 +431,23 @@ td a {
   object-fit: contain;
 }
 
+.pdf-entry-icon,
+.text-entry-icon {
+  min-height: 220px;
+}
+
+.pdf-entry-icon .upload-icon,
+.text-entry-icon .upload-icon {
+  width: 76px;
+  height: 76px;
+}
+
+.pdf-entry-icon .upload-icon svg,
+.text-entry-icon .upload-icon svg {
+  width: 42px;
+  height: 42px;
+}
+
 .entry-card div:last-child {
   padding: 18px;
 }
@@ -445,6 +462,13 @@ td a {
 .entry-card p {
   color: var(--muted);
   line-height: 1.75;
+}
+
+.text-link {
+  display: inline-flex;
+  margin-top: 8px;
+  color: var(--burgundy);
+  font-weight: 900;
 }
 
 .consult-request {
