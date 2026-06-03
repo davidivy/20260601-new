@@ -22,6 +22,19 @@ body {
 
 a { color: inherit; text-decoration: none; }
 
+main,
+section,
+.inner,
+.panel,
+.readable,
+.table-wrap {
+  min-width: 0;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -50,6 +63,12 @@ a { color: inherit; text-decoration: none; }
   gap: 16px;
   font-size: 15px;
   font-weight: 700;
+}
+
+.site-header nav a {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .hero {
@@ -192,10 +211,12 @@ h3 { margin: 0; font-size: 24px; }
 .topic-card p, .lesson-card p, .panel p { color: var(--muted); line-height: 1.75; }
 
 .table-wrap {
+  max-width: 100%;
   overflow-x: auto;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
+  -webkit-overflow-scrolling: touch;
 }
 
 table {
@@ -279,10 +300,56 @@ td a {
   .site-header {
     align-items: start;
     flex-direction: column;
+    gap: 8px;
+    min-height: auto;
+  }
+
+  .mark {
+    max-width: 100%;
+  }
+
+  .site-header nav {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .site-header nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-header nav a {
+    flex: 0 0 auto;
+    min-height: 42px;
+    padding: 0 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, .72);
   }
 }
 
 @media (max-width: 620px) {
+  .hero {
+    padding: 34px 18px 42px;
+  }
+
+  h1 {
+    font-size: clamp(38px, 13vw, 54px);
+    overflow-wrap: anywhere;
+  }
+
+  .lead {
+    font-size: 18px;
+  }
+
+  .panel {
+    padding: 22px;
+  }
+
   .actions .button { width: 100%; }
   .topic-card img { height: 180px; }
 }

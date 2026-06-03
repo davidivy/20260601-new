@@ -39,6 +39,23 @@ a {
   text-decoration: none;
 }
 
+main,
+section,
+.section-inner,
+.story-grid,
+.campaign-layout,
+.campaign-card,
+.photo-tools,
+.member-form,
+.ashan-layout,
+.ashan-panel {
+  min-width: 0;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
 .topbar {
   position: sticky;
   top: 0;
@@ -74,6 +91,12 @@ nav {
   justify-content: flex-end;
   gap: 18px;
   font-size: 15px;
+}
+
+nav a {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .hero {
@@ -642,10 +665,36 @@ figcaption {
   .topbar {
     align-items: flex-start;
     flex-direction: column;
+    gap: 8px;
+    min-height: auto;
+  }
+
+  .brand img {
+    width: 42px;
+    height: 42px;
   }
 
   nav {
+    width: 100%;
+    flex-wrap: nowrap;
     justify-content: flex-start;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  nav a {
+    flex: 0 0 auto;
+    min-height: 42px;
+    padding: 0 10px;
+    border-radius: 8px;
+    background: rgba(255, 249, 239, .68);
   }
 
   .story-grid,
@@ -683,7 +732,7 @@ figcaption {
 
 @media (max-width: 620px) {
   .hero {
-    min-height: 760px;
+    min-height: calc(100svh - 108px);
   }
 
   .hero-shade {
@@ -692,7 +741,18 @@ figcaption {
   }
 
   .hero-content {
-    padding-bottom: 54px;
+    width: 100%;
+    padding: 64px 18px 46px;
+  }
+
+  h1 {
+    font-size: clamp(36px, 12vw, 50px);
+    overflow-wrap: anywhere;
+  }
+
+  .section-inner {
+    width: min(100% - 32px, 1160px);
+    padding: 64px 0;
   }
 
   .menu-grid,
