@@ -1,57 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="教學、創業、旅館管理、登山日誌與餐旅顧問經驗整合的抽象主視覺">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="知識場域整合抽象主視覺">
   <rect width="1200" height="760" fill="#f7efe2"/>
-  <circle cx="930" cy="150" r="88" fill="#f6cf4d"/>
-  <circle cx="250" cy="600" r="58" fill="#d8e8ef"/>
-  <path d="M146 590c70-130 178-208 324-234 166-30 272-112 388-198 84-62 160-70 226-20" fill="none" stroke="#c9a45c" stroke-width="18" stroke-linecap="round"/>
-  <path d="M136 592c88-88 174-130 258-126 138 6 222 94 344 102 132 8 226-78 324-202" fill="none" stroke="#8b1e3f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="980" cy="150" r="96" fill="#f4c84d" opacity=".86"/>
+  <circle cx="214" cy="610" r="82" fill="#d8e8ef"/>
+  <circle cx="1008" cy="612" r="58" fill="#fff5d6"/>
 
-  <g transform="translate(456 256)">
-    <circle cx="144" cy="124" r="124" fill="#fff9ef" stroke="#2b2420" stroke-width="8"/>
-    <circle cx="144" cy="124" r="58" fill="#1f5c4b"/>
-    <path d="M108 124h72M144 88v72" stroke="#fff9ef" stroke-width="18" stroke-linecap="round"/>
-    <path d="M70 238 38 304M218 238l34 66M20 124h-76M308 124h76M64 42 18-12M224 42l46-54" stroke="#2b2420" stroke-width="8" stroke-linecap="round"/>
+  <path d="M132 548c126-154 258-224 396-210 132 14 202 124 338 118 84-4 156-52 226-144" fill="none" stroke="#8b1e3f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M142 594c150-88 286-118 408-90 116 26 204 18 314-44 78-44 142-54 196-30" fill="none" stroke="#c9a45c" stroke-width="18" stroke-linecap="round"/>
+  <path d="M178 498c92-84 174-116 246-96 56 16 94 58 150 74 62 18 136-4 222-66 82-58 164-88 246-88" fill="none" stroke="#1f5c4b" stroke-width="10" stroke-linecap="round"/>
+
+  <g opacity=".98">
+    <circle cx="600" cy="374" r="132" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <circle cx="600" cy="374" r="70" fill="#1f5c4b"/>
+    <circle cx="600" cy="374" r="18" fill="#fff9ef"/>
+    <path d="M600 242v-82M600 506v84M468 374h-88M732 374h88M506 280l-64-64M694 280l64-64M506 468l-64 64M694 468l64 64" stroke="#2b2420" stroke-width="8" stroke-linecap="round"/>
   </g>
 
-  <g transform="translate(116 120)">
-    <rect x="0" y="36" width="232" height="152" rx="18" fill="#1f5c4b" stroke="#2b2420" stroke-width="7"/>
-    <path d="M48 82h124M48 124h92M48 166h60" stroke="#fff9ef" stroke-width="13" stroke-linecap="round"/>
-    <path d="M176 188v34H62v-34" fill="#c9a45c"/>
-    <circle cx="188" cy="58" r="28" fill="#8b1e3f"/>
-    <path d="M188 40v36M170 58h36" stroke="#fff9ef" stroke-width="8" stroke-linecap="round"/>
+  <g>
+    <rect x="190" y="136" width="210" height="146" rx="30" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <path d="M232 188c46-20 84-18 118 8M232 232c44-10 84-8 118 6" fill="none" stroke="#1f5c4b" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="366" cy="164" r="28" fill="#8b1e3f"/>
   </g>
 
-  <g transform="translate(820 266)">
-    <path d="M22 230V70L126 22l104 48v160z" fill="#fff9ef" stroke="#2b2420" stroke-width="7" stroke-linejoin="round"/>
-    <path d="M70 106h36M146 106h36M70 152h36M146 152h36M70 198h112" stroke="#1f5c4b" stroke-width="14" stroke-linecap="round"/>
-    <path d="M104 230v-54h44v54" fill="#c9a45c" stroke="#2b2420" stroke-width="6"/>
+  <g>
+    <path d="M152 578 266 430l94 104 78-78 118 122z" fill="#1f5c4b"/>
+    <path d="M266 430 302 470l58 64 78-78" fill="none" stroke="#fff9ef" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="462" cy="430" r="32" fill="#f4c84d"/>
   </g>
 
-  <g transform="translate(138 420)">
-    <path d="M0 178 112 48l82 96 62-76 138 110z" fill="#1f5c4b"/>
-    <path d="m112 48 34 40 48 56 62-76" fill="none" stroke="#fff9ef" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M68 178c66-52 126-70 180-54 46 14 72-2 104-42" fill="none" stroke="#c9a45c" stroke-width="10" stroke-linecap="round"/>
-    <circle cx="330" cy="40" r="35" fill="#f6cf4d"/>
+  <g>
+    <path d="M814 548V382l106-52 106 52v166z" fill="#fff9ef" stroke="#2b2420" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M862 424h36M940 424h36M862 470h36M940 470h36M862 516h114" stroke="#1f5c4b" stroke-width="13" stroke-linecap="round"/>
   </g>
 
-  <g transform="translate(778 76)">
-    <rect x="0" y="0" width="220" height="142" rx="20" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
-    <path d="M46 48h94M46 88h126" stroke="#8b1e3f" stroke-width="12" stroke-linecap="round"/>
-    <circle cx="172" cy="48" r="32" fill="#1f5c4b"/>
-    <path d="m154 48 14 14 28-34" fill="none" stroke="#fff9ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M176 116h34" stroke="#c9a45c" stroke-width="18"/>
+  <g>
+    <rect x="792" y="118" width="246" height="150" rx="28" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <path d="M838 168h98M838 214h138" stroke="#8b1e3f" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="984" cy="164" r="34" fill="#1f5c4b"/>
+    <path d="m966 164 14 14 30-38" fill="none" stroke="#fff9ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <g transform="translate(448 84)">
-    <path d="M34 28c58-26 108-20 150 18v142c-46-34-96-40-150-18z" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
-    <path d="M184 46c42-38 92-44 150-18v142c-54-22-104-16-150 18z" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
-    <path d="M76 78h66M76 116h74M226 78h58M226 116h70" stroke="#1f5c4b" stroke-width="11" stroke-linecap="round"/>
-    <path d="M184 46v142" stroke="#2b2420" stroke-width="7" stroke-linecap="round"/>
+  <g>
+    <circle cx="344" cy="336" r="46" fill="#c9a45c" stroke="#2b2420" stroke-width="7"/>
+    <path d="M320 336h48M344 312v48" stroke="#fff9ef" stroke-width="10" stroke-linecap="round"/>
+    <path d="M300 388c-36 18-62 48-78 90" fill="none" stroke="#8b1e3f" stroke-width="11" stroke-linecap="round"/>
   </g>
 
-  <g transform="translate(612 560)">
-    <path d="M32 86c0-42 34-76 76-76s76 34 76 76-34 76-76 76-76-34-76-76z" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
-    <path d="M62 110h92M78 72h60" stroke="#8b1e3f" stroke-width="12" stroke-linecap="round"/>
-    <path d="M176 42 222 20l22 50-50 18z" fill="#c9a45c" stroke="#2b2420" stroke-width="6"/>
-    <path d="M236 60c38 18 60 48 66 90" fill="none" stroke="#1f5c4b" stroke-width="11" stroke-linecap="round"/>
+  <g>
+    <circle cx="744" cy="616" r="42" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <path d="M720 616h48M736 644h16" stroke="#8b1e3f" stroke-width="11" stroke-linecap="round"/>
+    <path d="M786 588 846 566l22 54-62 18z" fill="#c9a45c" stroke="#2b2420" stroke-width="6"/>
+    <path d="M860 604c38 22 62 54 72 96" fill="none" stroke="#1f5c4b" stroke-width="10" stroke-linecap="round"/>
   </g>
 </svg>

@@ -1,8 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="教學場域插圖">
-  <rect width="640" height="420" rx="0" fill="#fff9ef"/>
-  <rect x="74" y="82" width="492" height="246" rx="18" fill="#1f5c4b"/>
-  <path d="M126 140h210M126 198h300M126 256h170" stroke="#f7efe2" stroke-width="18" stroke-linecap="round"/>
-  <rect x="210" y="330" width="220" height="32" fill="#c9a45c"/>
-  <circle cx="472" cy="120" r="44" fill="#8b1e3f"/>
-  <path d="M438 118h68M472 84v68" stroke="#fff9ef" stroke-width="10" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="教學系列抽象插圖">
+  <rect width="640" height="420" fill="#fff9ef"/>
+  <circle cx="500" cy="88" r="58" fill="#f4c84d"/>
+  <circle cx="112" cy="322" r="48" fill="#d8e8ef"/>
+  <path d="M76 308c72-86 150-124 234-114 78 10 126 70 204 56 34-6 66-22 96-48" fill="none" stroke="#c9a45c" stroke-width="14" stroke-linecap="round"/>
+  <path d="M82 260c62-44 122-54 180-30 54 22 96 58 160 48 44-8 82-36 116-84" fill="none" stroke="#8b1e3f" stroke-width="9" stroke-linecap="round"/>
+  <g>
+    <path d="M162 118c56-28 104-24 144 12v154c-44-32-92-38-144-18z" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <path d="M306 130c40-36 88-40 144-12v148c-52-20-100-14-144 18z" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <path d="M200 170h66M200 210h76M348 170h54M348 210h74" stroke="#1f5c4b" stroke-width="11" stroke-linecap="round"/>
+    <path d="M306 130v154" stroke="#2b2420" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="318" cy="304" r="48" fill="#1f5c4b"/>
+    <path d="M294 304h48M318 280v48" stroke="#fff9ef" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="448" y="250" width="98" height="76" rx="16" fill="#8b1e3f"/>
+    <path d="M474 278h44M474 304h30" stroke="#fff9ef" stroke-width="9" stroke-linecap="round"/>
+  </g>
 </svg>
