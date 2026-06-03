@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="教學場域插圖">
+  <rect width="640" height="420" rx="0" fill="#fff9ef"/>
+  <rect x="74" y="82" width="492" height="246" rx="18" fill="#1f5c4b"/>
+  <path d="M126 140h210M126 198h300M126 256h170" stroke="#f7efe2" stroke-width="18" stroke-linecap="round"/>
+  <rect x="210" y="330" width="220" height="32" fill="#c9a45c"/>
+  <circle cx="472" cy="120" r="44" fill="#8b1e3f"/>
+  <path d="M438 118h68M472 84v68" stroke="#fff9ef" stroke-width="10" stroke-linecap="round"/>
+</svg>

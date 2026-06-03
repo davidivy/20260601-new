@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="爬山虎系列插圖">
+  <rect width="640" height="420" fill="#f4f7f2"/>
+  <path d="M0 340l140-150 92 88 96-130 130 160 80-88 102 120v80H0z" fill="#1f5c4b"/>
+  <path d="M120 340l104-118 86 90 82-116 128 144" fill="none" stroke="#c9a45c" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="505" cy="86" r="54" fill="#f4c84d"/>
+  <path d="M255 176c42 36 74 80 92 132" fill="none" stroke="#8b1e3f" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="246" cy="164" r="22" fill="#8b1e3f"/>
+</svg>

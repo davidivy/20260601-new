@@ -3,279 +3,109 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>La Neige 法式雪冰室｜台灣的冰，法式的午後</title>
-  <meta name="description" content="La Neige 法式雪冰室，琰綱與父親退休後一起打造的台灣法式冰店。雪花冰、刨冰、熱飲、湯品、拍照牆、會員訂閱與長期酬賓計劃。">
-  <link rel="stylesheet" href="site.css">
+  <title>知識是永遠的勇者｜葉佳山網站</title>
+  <meta name="description" content="葉佳山教學網站：弘光科技大學餐旅系創業系列、旅館管理系列、爬山虎登山日誌、餐旅顧問經歷。">
+  <link rel="stylesheet" href="portal.css">
 </head>
 <body>
-  <header class="topbar" aria-label="網站導覽">
-    <a class="brand" href="#home" aria-label="回到首頁">
-      <img src="assets/logo.svg" alt="La Neige 法式雪冰室">
-      <span>LA NEIGE</span>
-    </a>
+  <header class="site-header">
+    <a class="mark" href="index.html">知識是永遠的勇者｜葉佳山網站</a>
     <nav>
-      <a href="#story">品牌故事</a>
-      <a href="#menu">主題菜單</a>
-      <a href="#photo-wall">拍照牆</a>
-      <a href="#ashan-club">阿山哥俱樂部</a>
-      <a href="#member">會員訂閱</a>
+      <a href="#teaching" data-scroll>教學場域</a>
+      <a href="#climbing" data-scroll>爬山虎系列</a>
+      <a href="#consulting" data-scroll>餐旅顧問</a>
+      <a href="la-neige/">法式冰店範例</a>
     </nav>
   </header>
 
   <main>
-    <section id="home" class="hero">
-      <img class="hero-image" src="assets/hero-storefront.png" alt="台灣街角的法式雪冰室，店內有透明製冰區與拍照顧客">
-      <div class="hero-shade"></div>
-      <div class="hero-content">
-        <p class="eyebrow">台灣冰品 x 法式生活感</p>
-        <h1>把台灣的冰，做成一場法式午後。</h1>
-        <p class="lead">琰綱從英國建築與藝術帶回來的光影，遇上父親退休後想好好生活的溫度。這裡有透明製冰區、季節雪花冰、熱飲湯品，還有一面讓日常變漂亮的拍照牆。</p>
-        <div class="hero-actions" aria-label="主要行動">
-          <a class="button primary" href="#photo-wall">上傳拍照牆</a>
-          <a class="button ghost" href="#member">加入雪室會員</a>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Yeh Chia-Shan Teaching Portal</p>
+        <h1>知識是永遠的勇者</h1>
+        <p class="lead">這是一個整合教學、創業、旅館管理、登山日誌與餐旅顧問經驗的網站。知識不是只被保存，而是被帶到課堂、現場、山路與實作案例裡。</p>
+        <div class="actions">
+          <a class="button primary" href="#teaching" data-scroll>進入教學場域</a>
+          <a class="button secondary" href="entrepreneurship.html">觀看創業系列</a>
         </div>
       </div>
+      <img src="assets/portal/hero-knowledge.svg" alt="知識是永遠的勇者主視覺插圖">
     </section>
 
-    <section id="story" class="story-section">
-      <div class="section-inner story-grid">
-        <div>
-          <p class="eyebrow">Brand Story</p>
-          <h2>一位年輕建築人，和父親退休後的第一間店。</h2>
-        </div>
-        <div class="story-copy">
-          <p>琰綱在英國學建築與藝術時，最著迷的不是宏偉建築，而是街角小店裡的光。回到台灣後，他和即將退休的父親決定開一間冰店：外表像法國街角，味道卻保留台灣人熟悉的甜。</p>
-          <p>透明製作區讓客人看見冰塊、糖水、配料與每一碗冰的完成。父親負責味道，琰綱負責空間。這間店不是只賣冰，而是讓人願意特地前往、拍照、停留，再把生活過得更有品味一點。</p>
-        </div>
-        <figure class="story-photo story-storefront">
-          <img src="assets/hero-storefront.png" alt="台灣街景中一間法式冰店外觀模擬，奶油白門面與透明製作區">
-          <figcaption>外觀模擬｜台灣街景裡令人驚艷的法式冰店</figcaption>
-        </figure>
-        <figure class="story-photo">
-          <img src="assets/owner-father-normalized.jpg" alt="琰綱與父親的合照">
-          <figcaption>品牌起點｜琰綱與父親一起開始的退休後新計畫</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section id="menu" class="menu-section">
-      <div class="section-inner">
-        <div class="section-heading">
-          <p class="eyebrow">Seasonal Menu</p>
-          <h2>四季都有理由前往</h2>
-        </div>
-        <div class="menu-grid">
-          <article class="menu-card">
-            <img class="dish-photo" src="assets/caramel-ice-dessert.jpg" alt="焦糖冰品與奶霜示意照片">
-            <h3>焦糖伯爵雪花冰</h3>
-            <p>茶香雪花、焦糖脆片、奶霜，招牌第一碗。照片為雪花冰氛圍示意。</p>
-            <span>NT$150</span>
-          </article>
-          <article class="menu-card">
-            <img class="dish-photo" src="assets/self-ice-product.jpg" alt="店主自拍的草莓刨冰示意照片">
-            <h3>草莓玫瑰雙人冰</h3>
-            <p>以自拍冰品作為產品視覺基礎，延伸成粉色系拍照主角，適合約會與朋友分享。</p>
-            <span>雙人 NT$299</span>
-          </article>
-          <article class="menu-card">
-            <img class="dish-photo" src="assets/lemon-ice-dessert.jpg" alt="檸檬冷甜點與冰品示意照片">
-            <h3>檸檬塔刨冰</h3>
-            <p>酸甜檸檬醬、餅乾碎、奶霜與清爽刨冰，保留法式檸檬塔的酸甜記憶。</p>
-            <span>NT$130</span>
-          </article>
-          <article class="menu-card">
-            <img class="dish-photo" src="assets/winter-cocoa.jpg" alt="熱可可與肉桂示意照片">
-            <h3>台灣暖冬熱飲</h3>
-            <p>黑糖薑奶、桂圓紅棗茶、燒仙草奶茶、花生湯圓可可，冬天也有回訪理由。</p>
-            <span>套餐 NT$149 起</span>
-          </article>
-        </div>
-        <div class="winter-note">
-          <strong>冬季補強：</strong>
-          台灣人熟悉的暖胃味型可做成 11-2 月主打：熱黑糖薑奶、桂圓紅棗茶、燒仙草奶茶、花生湯圓可可、芋泥紫米鮮奶、芝麻糊拿鐵。
-        </div>
-      </div>
-    </section>
-
-    <section class="campaign-section">
-      <div class="section-inner campaign-layout">
-        <div>
-          <p class="eyebrow">Social Campaign</p>
-          <h2>每月一個主題，讓社群自己長出故事。</h2>
-          <p>FB 經營在地活動，IG 建立法式拍照感，抖音/TikTok 用製作過程取得第一波曝光。每個月固定一個主題色、一個限定品、一個顧客互動任務。</p>
-        </div>
-        <div class="month-strip" aria-label="年度社群主題">
-          <button class="month active" data-month="2">2月 玫瑰</button>
-          <button class="month" data-month="4">4月 伯爵</button>
-          <button class="month" data-month="7">7月 芒果</button>
-          <button class="month" data-month="12">12月 聖誕</button>
-        </div>
-        <div id="campaign-card" class="campaign-card" aria-live="polite">
-          <img class="campaign-illustration" src="assets/month-rose.svg" alt="玫瑰情人節雪花冰插畫">
+    <section id="teaching" class="section">
+      <div class="inner">
+        <div class="section-head">
           <div>
-            <p class="campaign-title">玫瑰情人節</p>
-            <h3>草莓玫瑰雙人冰</h3>
-            <p>IG 主打粉色桌拍，TikTok 拍淋醬與雙湯匙分食，FB 推雙人套餐 299 元。</p>
+            <p class="eyebrow">Teaching Field</p>
+            <h2>教學場域</h2>
           </div>
+          <p>弘光科技大學餐旅系教學素材，以系列方式整理，讓學生可以從課程計劃、案例網站到簡報瀏覽循序進入。</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>系列</th>
+                <th>內容定位</th>
+                <th>教學計劃書</th>
+                <th>PPT 瀏覽</th>
+                <th>範例連結</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>弘光科技大學餐旅系創業系列</td>
+                <td>微型餐飲創業、品牌故事、網站行銷、會員互動與 GitHub Pages 教學案例。</td>
+                <td><a href="business-plan.html">觀看教學計劃書</a></td>
+                <td><a href="entrepreneurship.html#ppt-view">網頁瀏覽，不提供下載</a></td>
+                <td><a href="la-neige/">La Neige 法式雪冰室</a></td>
+              </tr>
+              <tr>
+                <td>旅館管理系列</td>
+                <td>房務、櫃檯、收益管理、服務流程與顧客體驗設計。</td>
+                <td><a href="hotel-management.html">觀看教學計劃書</a></td>
+                <td><a href="hotel-management.html#ppt-view">網頁瀏覽，不提供下載</a></td>
+                <td>建置中</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
 
-    <section id="photo-wall" class="photo-section">
-      <div class="section-inner">
-        <div class="section-heading">
-          <p class="eyebrow">Photo Wall</p>
-          <h2>把你的法式午後貼上牆</h2>
-        </div>
-        <div class="photo-tools">
-          <label class="upload-tile">
-            <input id="photo-input" type="file" accept="image/*">
-            <span>選擇照片</span>
-          </label>
-          <input id="photo-name" type="text" maxlength="16" placeholder="暱稱">
-          <select id="photo-tag" aria-label="照片主題">
-            <option value="焦糖伯爵">焦糖伯爵</option>
-            <option value="草莓玫瑰">草莓玫瑰</option>
-            <option value="透明製冰區">透明製冰區</option>
-            <option value="法式拍照牆">法式拍照牆</option>
-          </select>
-          <button id="add-photo" class="button primary" type="button">加入拍照牆</button>
-        </div>
-        <div id="photo-preview" class="preview-empty">尚未選擇照片</div>
-        <div id="gallery" class="gallery" aria-live="polite">
-          <figure>
-            <img src="assets/hero-storefront.png" alt="法式冰店透明製作區外觀示範照片">
-            <figcaption>琰綱推薦｜透明製冰區</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/self-ice-product.jpg" alt="店主自拍冰品的拍照牆示範照片">
-            <figcaption>自拍冰品｜草莓玫瑰</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/photo-wall-cafe.jpg" alt="年輕顧客在店內互動的拍照牆示範照片">
-            <figcaption>午後客｜焦糖伯爵</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="interaction-section">
-      <div class="section-inner interaction-grid">
-        <div class="poll-block">
-          <p class="eyebrow">Customer Vote</p>
-          <h2>下一款限定冰，由客人決定。</h2>
-          <div class="vote-options" role="group" aria-label="限定口味投票">
-            <button class="vote" data-flavor="玫瑰荔枝">玫瑰荔枝 <span>42%</span></button>
-            <button class="vote" data-flavor="焙茶奶霜">焙茶奶霜 <span>35%</span></button>
-            <button class="vote" data-flavor="芋泥可可">芋泥可可 <span>23%</span></button>
+    <section class="section">
+      <div class="inner topic-grid">
+        <article class="topic-card">
+          <img src="assets/portal/teaching.svg" alt="教學場域插圖">
+          <div>
+            <h3>餐旅系教學系列</h3>
+            <p>將課程、計劃書、PPT 與案例網站整理為可連結的教學資源。</p>
           </div>
-          <p id="vote-result" class="status-text" aria-live="polite"></p>
-        </div>
-        <div class="message-block">
-          <p class="eyebrow">Guest Notes</p>
-          <h2>留下今天的一句話</h2>
-          <textarea id="guest-message" maxlength="80" placeholder="今天想把哪一口甜留在這裡？"></textarea>
-          <button id="add-message" class="button primary" type="button">送出留言</button>
-          <ul id="message-list">
-            <li>「不用出國，也像坐在巴黎街角。」</li>
-            <li>「透明製作區好療癒，冰也真的綿。」</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="member" class="member-section">
-      <div class="section-inner">
-        <div class="section-heading">
-          <p class="eyebrow">Member Club</p>
-          <h2>長期酬賓與會員訂閱</h2>
-        </div>
-        <div class="member-grid">
-          <article class="member-plan">
-            <p class="plan-label">免費加入</p>
-            <h3>雪室集點卡</h3>
-            <p>每消費 100 元累積 1 點，滿 10 點折 100 元。生日月招牌冰 9 折。</p>
-            <strong>NT$0</strong>
-            <button class="button ghost join-plan" data-plan="雪室集點卡">加入</button>
-          </article>
-          <article class="member-plan featured">
-            <p class="plan-label">最適合常客</p>
-            <h3>午後冰會員</h3>
-            <p>每月 399 元，含 3 張招牌冰券、飲品升級、限定口味優先試吃。</p>
-            <strong>NT$399 / 月</strong>
-            <button class="button primary join-plan" data-plan="午後冰會員">訂閱</button>
-          </article>
-          <article class="member-plan">
-            <p class="plan-label">企業與家庭</p>
-            <h3>甜點生活盒</h3>
-            <p>每月配送果醬、茶包、杯墊小物與季節優惠券，適合送禮。</p>
-            <strong>NT$699 / 月</strong>
-            <button class="button ghost join-plan" data-plan="甜點生活盒">預約</button>
-          </article>
-        </div>
-        <form id="member-form" class="member-form">
-          <input id="member-name" type="text" placeholder="姓名" required>
-          <input id="member-contact" type="text" placeholder="手機或 Email" required>
-          <button class="button primary" type="submit">送出會員資料</button>
-        </form>
-        <p id="member-status" class="status-text" aria-live="polite"></p>
-      </div>
-    </section>
-
-    <section id="ashan-club" class="ashan-section">
-      <div class="section-inner ashan-layout">
-        <figure class="ashan-photo">
-          <img src="assets/father-motorcycle.jpg" alt="父親與重機在戶外的照片">
-          <figcaption>阿山哥推薦｜山路、重機與一碗下山後的冰</figcaption>
-        </figure>
-        <div class="ashan-panel">
-          <p class="eyebrow">A-Shan Hiking Club</p>
-          <h2>阿山哥俱樂部</h2>
-          <p>父親喜歡登山，也喜歡騎著重機去看更遠的風景，所以把這份生活熱情變成會員活動：會員每月可上傳一張爬山照，或 PO 一張騎士重機照並介紹機車品牌與車款，就能領取本月專屬優惠。適合退休族、親子、年輕山友與騎士朋友，也讓冰店多一個有故事的社群主題。</p>
-          <div class="ashan-benefits">
-            <span>每月限領 1 次</span>
-            <span>PO 爬山或重機照</span>
-            <span>品牌車款介紹</span>
-            <span>招牌冰折 20 元</span>
-            <span>冬季熱飲 9 折</span>
+        </article>
+        <article id="climbing" class="topic-card">
+          <img src="assets/portal/climbing.svg" alt="爬山虎系列插圖">
+          <div>
+            <h3>爬山虎系列</h3>
+            <p>登山日誌、路線紀錄、山友心得與生活觀察，讓學習走進山林與身體經驗。</p>
+            <a class="button secondary" href="climbing.html">進入爬山虎</a>
           </div>
-          <div class="ashan-form">
-            <select id="ashan-task" aria-label="阿山哥任務類型">
-              <option value="hike">登山照登錄</option>
-              <option value="bike">重機照與品牌介紹</option>
-            </select>
-            <label class="upload-tile">
-              <input id="hike-photo-input" type="file" accept="image/*">
-              <span>選擇照片</span>
-            </label>
-            <input id="hike-name" type="text" maxlength="32" placeholder="山名、步道或重機品牌車款">
-            <textarea id="bike-intro" maxlength="120" placeholder="重機任務可填：品牌、車款、騎乘路線或你喜歡它的原因。"></textarea>
-            <button id="hike-checkin" class="button primary" type="button">本月登錄</button>
+        </article>
+        <article id="consulting" class="topic-card">
+          <img src="assets/portal/consulting.svg" alt="餐旅顧問系列插圖">
+          <div>
+            <h3>餐旅顧問系列</h3>
+            <p>整理餐旅顧問經歷、品牌診斷、營運改善、服務流程與創業輔導案例。</p>
+            <a class="button secondary" href="consulting.html">查看顧問經歷</a>
           </div>
-          <div id="hike-preview" class="preview-empty">尚未選擇照片</div>
-          <div class="hike-samples" aria-label="阿山哥登山照片示範">
-            <figure>
-              <img src="assets/father-hiking.jpg" alt="父親登山時在山景前自拍的照片">
-              <figcaption>山景自拍｜本月登錄示範</figcaption>
-            </figure>
-            <figure>
-              <img src="assets/father-motorcycle.jpg" alt="父親與重機的照片">
-              <figcaption>騎士重機｜PO 照與品牌介紹</figcaption>
-            </figure>
-          </div>
-          <p id="hike-status" class="status-text" aria-live="polite"></p>
-        </div>
+        </article>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <img src="assets/logo.svg" alt="">
-    <p>La Neige 法式雪冰室｜雪花冰・刨冰・熱飲・湯品</p>
-    <p>IG / TikTok：@laneige_ice　FB：La Neige 法式雪冰室</p>
-    <p class="credit">部分照片為店主自有照片；教學示意圖片來源：Unsplash、Pexels；店面外觀為 AI 品牌模擬圖。</p>
+    <p>知識是永遠的勇者｜葉佳山網站</p>
+    <p>教學、創業、旅館管理、登山與餐旅顧問的長期知識場域</p>
   </footer>
-
-  <script src="site.js"></script>
+  <script src="portal.js"></script>
 </body>
 </html>

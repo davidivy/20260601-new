@@ -1,8 +1,13 @@
 # 20260601 New
 
-## La Neige 法式雪冰室教學案例
+## 知識是永遠的勇者｜葉佳山教學網站
 
-本專案整合一個微型餐飲創業教學範例：以「台灣冰品 x 法式生活感 x 父子退休創業」為主題，完成品牌故事、創業計劃書、簡報與互動式網站原型。
+本專案整合葉佳山教學網站與微型餐飲創業教學範例。網站主題包含：
+
+- 教學場域：弘光科技大學餐旅系創業系列、旅館管理系列
+- 爬山虎系列：登山日誌與網誌
+- 餐旅顧問系列：餐旅顧問經歷
+- 創業系列範例：La Neige 法式雪冰室
 
 ### 教學範例網站
 
@@ -18,24 +23,28 @@ python3 -m http.server 4173 --directory docs
 http://localhost:4173
 ```
 
-GitHub Pages 設定：
-
-1. 將本 repo 推上 GitHub。
-2. 進入 GitHub Repository `Settings`。
-3. 選擇 `Pages`。
-4. Source 選 `Deploy from a branch`。
-5. Branch 選 `main`，Folder 選 `/docs`。
-6. 儲存後即可取得公開教學網址。
-
-預期網址格式：
+GitHub Pages 公開網址：
 
 ```text
 https://davidivy.github.io/20260601-new/
 ```
 
+主要頁面：
+
+- 首頁：`/`
+- 創業系列：`/entrepreneurship.html`
+- 創業計劃書網頁版：`/business-plan.html`
+- 旅館管理系列：`/hotel-management.html`
+- 爬山虎系列：`/climbing.html`
+- 餐旅顧問系列：`/consulting.html`
+- La Neige 法式雪冰室範例：`/la-neige/`
+
 ### 主要交付物
 
-- `docs/index.html`：可上 GitHub Pages 的互動網站範例
+- `docs/index.html`：葉佳山教學網站首頁
+- `docs/entrepreneurship.html`：弘光餐旅系創業系列教學頁
+- `docs/business-plan.html`：La Neige 法式雪冰室創業計劃書網頁版
+- `docs/la-neige/`：La Neige 法式雪冰室互動範例
 - `ice_shop_design/法式雪冰室創業計劃書.md`：創業計劃書 Markdown
 - `La_Neige_法式雪冰室創業計劃書.docx`：創業計劃書 Word 檔
 - `La_Neige_法式雪冰室創業教學簡報.pptx`：教學簡報

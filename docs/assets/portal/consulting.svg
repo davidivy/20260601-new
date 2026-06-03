@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="餐旅顧問插圖">
+  <rect width="640" height="420" fill="#fff5d6"/>
+  <rect x="94" y="88" width="452" height="252" rx="18" fill="#fff9ef" stroke="#2b2420" stroke-width="8"/>
+  <path d="M148 154h154M148 214h250M148 274h210" stroke="#8b1e3f" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="468" cy="158" r="44" fill="#1f5c4b"/>
+  <path d="M442 158l18 18 38-48" fill="none" stroke="#fff9ef" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M420 266h86v48h-86z" fill="#c9a45c"/>
+</svg>

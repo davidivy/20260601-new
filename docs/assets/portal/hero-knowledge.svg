@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="知識是永遠的勇者主視覺插圖">
+  <rect width="1200" height="760" fill="#f7efe2"/>
+  <circle cx="950" cy="170" r="105" fill="#c9a45c"/>
+  <path d="M200 610h780c52 0 94-42 94-94V180c0-52-42-94-94-94H420c-122 0-220 98-220 220v304z" fill="#fff9ef" stroke="#2b2420" stroke-width="10"/>
+  <path d="M302 610V306c0-64 52-116 116-116h540c22 0 40 18 40 40v254c0 22-18 40-40 40H442c-50 0-98 30-140 86z" fill="#1f5c4b"/>
+  <path d="M460 260h390M460 330h330M460 400h250" stroke="#fff9ef" stroke-width="22" stroke-linecap="round"/>
+  <path d="M250 570l86-62 50 78-96 44z" fill="#8b1e3f"/>
+  <path d="M298 466l62 118 92-64-56-110z" fill="#c9a45c" stroke="#2b2420" stroke-width="8"/>
+  <path d="M332 408c44-84 128-126 252-126" fill="none" stroke="#8b1e3f" stroke-width="14" stroke-linecap="round"/>
+  <text x="128" y="120" font-family="'Noto Serif TC', Georgia, serif" font-size="58" fill="#8b1e3f" font-weight="700">知識是永遠的勇者</text>
+  <text x="132" y="178" font-family="'Noto Sans TC', Arial, sans-serif" font-size="30" fill="#1f5c4b">葉佳山教學網站</text>
+</svg>
