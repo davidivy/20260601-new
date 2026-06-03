@@ -156,6 +156,10 @@ h3 { margin: 0; font-size: 24px; }
   padding: clamp(62px, 8vw, 92px) clamp(18px, 5vw, 70px);
 }
 
+.alt-section {
+  background: var(--cream);
+}
+
 .inner { max-width: 1160px; margin: 0 auto; }
 
 .section-head {
@@ -250,6 +254,45 @@ td a {
 
 .lesson-card { padding: 24px; }
 
+.credential-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.credential-grid ul {
+  margin: 16px 0 0;
+  padding-left: 1.2em;
+}
+
+.case-list {
+  display: grid;
+  gap: 14px;
+}
+
+.case-item {
+  display: grid;
+  grid-template-columns: minmax(180px, .34fr) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(43, 36, 32, .07);
+}
+
+.case-item strong {
+  color: var(--burgundy);
+  font-size: 20px;
+}
+
+.case-item p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
 .slide-viewer {
   display: grid;
   gap: 16px;
@@ -288,7 +331,12 @@ td a {
 @media (max-width: 900px) {
   .hero,
   .topic-grid,
-  .lesson-grid {
+  .lesson-grid,
+  .credential-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .case-item {
     grid-template-columns: 1fr;
   }
 
