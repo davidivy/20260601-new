@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="portal.css?v=mobile-fix">
 </head>
 <body>
-  <header class="site-header"><a class="mark" href="index.html">知識是永遠的勇者｜葉佳山網站</a><nav><a href="index.html">首頁</a></nav></header>
+  <header class="site-header"><a class="mark" href="index.html">知識是永遠的勇者｜葉佳山網站</a><nav><a href="index.html">首頁</a><a href="#climb-upload">照片文章上傳</a></nav></header>
   <main>
     <section class="hero">
       <div><p class="eyebrow">Climbing Journal</p><h1>爬山虎系列</h1><p class="lead">登山日誌與網誌，記錄路線、山景、同行者、身體感受與生活觀察。山路也是一種教室。</p></div>
@@ -19,7 +19,54 @@
       <article class="lesson-card"><h3>阿山哥連動</h3><p>可與 La Neige 的阿山哥俱樂部互相連結，形成社群活動。</p></article>
       <article class="lesson-card"><h3>未來擴充</h3><p>可加入 GPX、照片牆、路線評分與山友留言。</p></article>
     </div></section>
+
+    <section id="climb-upload" class="section alt-section">
+      <div class="inner">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Climbing Posts</p>
+            <h2>登山照片與文章</h2>
+          </div>
+          <p>爬山虎系列可上傳山景、路線紀錄、同行照片，或新增登山日誌與網誌文章。</p>
+        </div>
+        <div class="upload-panel" data-upload-panel="爬山虎日誌">
+          <div class="upload-controls">
+            <label class="icon-upload">
+              <input type="file" accept="image/*" data-upload-file>
+              <span class="upload-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M12 3v11"></path>
+                  <path d="m7 8 5-5 5 5"></path>
+                  <path d="M5 14v5h14v-5"></path>
+                </svg>
+              </span>
+              <span>照片</span>
+            </label>
+            <input type="text" maxlength="24" placeholder="山名或標題" data-upload-title>
+            <select data-upload-tag aria-label="文章分類">
+              <option value="登山日誌">登山日誌</option>
+              <option value="路線紀錄">路線紀錄</option>
+              <option value="山景照片">山景照片</option>
+              <option value="生活觀察">生活觀察</option>
+            </select>
+          </div>
+          <textarea maxlength="360" placeholder="登山心得、路線紀錄或網誌文章" data-upload-body></textarea>
+          <div class="upload-actions">
+            <button class="button primary" type="button" data-upload-submit>送出日誌</button>
+            <p class="upload-status" data-upload-status aria-live="polite"></p>
+          </div>
+          <div class="upload-preview" data-upload-preview>尚未選擇照片</div>
+          <div class="entry-grid" data-upload-list>
+            <article class="entry-card">
+              <div class="entry-image"><img src="assets/portal/climbing.svg" alt="爬山虎日誌示範插圖"></div>
+              <div><span>登山日誌</span><h3>山路也是一種教室</h3><p>記錄路線、天氣、體力與路上的觀察，讓登山不只是抵達山頂，也成為生活書寫。</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer"><p>爬山虎系列｜葉佳山教學網站</p></footer>
+  <script src="portal.js?v=upload-tools"></script>
 </body>
 </html>

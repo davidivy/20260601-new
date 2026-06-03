@@ -12,6 +12,7 @@
     <nav>
       <a href="index.html#teaching">教學場域</a>
       <a href="#lesson-plan">教學計劃書</a>
+      <a href="#teaching-upload">作品上傳</a>
       <a href="#ppt-view">PPT 瀏覽</a>
       <a href="la-neige/">法式冰店範例</a>
     </nav>
@@ -61,6 +62,52 @@
       </div>
     </section>
 
+    <section id="teaching-upload" class="section alt-section">
+      <div class="inner">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Student Works</p>
+            <h2>教學作品上傳</h2>
+          </div>
+          <p>創業系列可上傳課堂照片、菜單草圖、店面示意，或新增品牌故事與創業文章。</p>
+        </div>
+        <div class="upload-panel" data-upload-panel="創業系列作品">
+          <div class="upload-controls">
+            <label class="icon-upload">
+              <input type="file" accept="image/*" data-upload-file>
+              <span class="upload-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M12 3v11"></path>
+                  <path d="m7 8 5-5 5 5"></path>
+                  <path d="M5 14v5h14v-5"></path>
+                </svg>
+              </span>
+              <span>照片</span>
+            </label>
+            <input type="text" maxlength="24" placeholder="作品標題" data-upload-title>
+            <select data-upload-tag aria-label="作品分類">
+              <option value="品牌故事">品牌故事</option>
+              <option value="菜單設計">菜單設計</option>
+              <option value="空間草圖">空間草圖</option>
+              <option value="社群企劃">社群企劃</option>
+            </select>
+          </div>
+          <textarea maxlength="360" placeholder="文章內容、課堂心得或創業構想" data-upload-body></textarea>
+          <div class="upload-actions">
+            <button class="button primary" type="button" data-upload-submit>送出作品</button>
+            <p class="upload-status" data-upload-status aria-live="polite"></p>
+          </div>
+          <div class="upload-preview" data-upload-preview>尚未選擇照片</div>
+          <div class="entry-grid" data-upload-list>
+            <article class="entry-card">
+              <div class="entry-image"><img src="assets/portal/teaching.svg" alt="教學作品示範插圖"></div>
+              <div><span>菜單設計</span><h3>法式冰店菜單草圖</h3><p>把商品分成湯品、飲料、雪花冰、刨冰與冬季飲品，練習從菜單看品牌定位。</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="ppt-view" class="section">
       <div class="inner">
         <div class="section-head">
@@ -81,5 +128,6 @@
     </section>
   </main>
   <footer class="footer"><p>創業系列｜葉佳山教學網站</p></footer>
+  <script src="portal.js?v=upload-tools"></script>
 </body>
 </html>
