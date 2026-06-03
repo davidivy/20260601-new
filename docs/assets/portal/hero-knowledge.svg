@@ -1,12 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="知識是永遠的勇者主視覺插圖">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="教學、創業、旅館管理、登山日誌與餐旅顧問經驗整合的抽象主視覺">
   <rect width="1200" height="760" fill="#f7efe2"/>
-  <circle cx="950" cy="170" r="105" fill="#c9a45c"/>
-  <path d="M200 610h780c52 0 94-42 94-94V180c0-52-42-94-94-94H420c-122 0-220 98-220 220v304z" fill="#fff9ef" stroke="#2b2420" stroke-width="10"/>
-  <path d="M302 610V306c0-64 52-116 116-116h540c22 0 40 18 40 40v254c0 22-18 40-40 40H442c-50 0-98 30-140 86z" fill="#1f5c4b"/>
-  <path d="M460 260h390M460 330h330M460 400h250" stroke="#fff9ef" stroke-width="22" stroke-linecap="round"/>
-  <path d="M250 570l86-62 50 78-96 44z" fill="#8b1e3f"/>
-  <path d="M298 466l62 118 92-64-56-110z" fill="#c9a45c" stroke="#2b2420" stroke-width="8"/>
-  <path d="M332 408c44-84 128-126 252-126" fill="none" stroke="#8b1e3f" stroke-width="14" stroke-linecap="round"/>
-  <text x="128" y="120" font-family="'Noto Serif TC', Georgia, serif" font-size="58" fill="#8b1e3f" font-weight="700">知識是永遠的勇者</text>
-  <text x="132" y="178" font-family="'Noto Sans TC', Arial, sans-serif" font-size="30" fill="#1f5c4b">葉佳山教學網站</text>
+  <circle cx="930" cy="150" r="88" fill="#f6cf4d"/>
+  <circle cx="250" cy="600" r="58" fill="#d8e8ef"/>
+  <path d="M146 590c70-130 178-208 324-234 166-30 272-112 388-198 84-62 160-70 226-20" fill="none" stroke="#c9a45c" stroke-width="18" stroke-linecap="round"/>
+  <path d="M136 592c88-88 174-130 258-126 138 6 222 94 344 102 132 8 226-78 324-202" fill="none" stroke="#8b1e3f" stroke-width="10" stroke-linecap="round"/>
+
+  <g transform="translate(456 256)">
+    <circle cx="144" cy="124" r="124" fill="#fff9ef" stroke="#2b2420" stroke-width="8"/>
+    <circle cx="144" cy="124" r="58" fill="#1f5c4b"/>
+    <path d="M108 124h72M144 88v72" stroke="#fff9ef" stroke-width="18" stroke-linecap="round"/>
+    <path d="M70 238 38 304M218 238l34 66M20 124h-76M308 124h76M64 42 18-12M224 42l46-54" stroke="#2b2420" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(116 120)">
+    <rect x="0" y="36" width="232" height="152" rx="18" fill="#1f5c4b" stroke="#2b2420" stroke-width="7"/>
+    <path d="M48 82h124M48 124h92M48 166h60" stroke="#fff9ef" stroke-width="13" stroke-linecap="round"/>
+    <path d="M176 188v34H62v-34" fill="#c9a45c"/>
+    <circle cx="188" cy="58" r="28" fill="#8b1e3f"/>
+    <path d="M188 40v36M170 58h36" stroke="#fff9ef" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(820 266)">
+    <path d="M22 230V70L126 22l104 48v160z" fill="#fff9ef" stroke="#2b2420" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M70 106h36M146 106h36M70 152h36M146 152h36M70 198h112" stroke="#1f5c4b" stroke-width="14" stroke-linecap="round"/>
+    <path d="M104 230v-54h44v54" fill="#c9a45c" stroke="#2b2420" stroke-width="6"/>
+  </g>
+
+  <g transform="translate(138 420)">
+    <path d="M0 178 112 48l82 96 62-76 138 110z" fill="#1f5c4b"/>
+    <path d="m112 48 34 40 48 56 62-76" fill="none" stroke="#fff9ef" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M68 178c66-52 126-70 180-54 46 14 72-2 104-42" fill="none" stroke="#c9a45c" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="330" cy="40" r="35" fill="#f6cf4d"/>
+  </g>
+
+  <g transform="translate(778 76)">
+    <rect x="0" y="0" width="220" height="142" rx="20" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <path d="M46 48h94M46 88h126" stroke="#8b1e3f" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="172" cy="48" r="32" fill="#1f5c4b"/>
+    <path d="m154 48 14 14 28-34" fill="none" stroke="#fff9ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M176 116h34" stroke="#c9a45c" stroke-width="18"/>
+  </g>
+
+  <g transform="translate(448 84)">
+    <path d="M34 28c58-26 108-20 150 18v142c-46-34-96-40-150-18z" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <path d="M184 46c42-38 92-44 150-18v142c-54-22-104-16-150 18z" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <path d="M76 78h66M76 116h74M226 78h58M226 116h70" stroke="#1f5c4b" stroke-width="11" stroke-linecap="round"/>
+    <path d="M184 46v142" stroke="#2b2420" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(612 560)">
+    <path d="M32 86c0-42 34-76 76-76s76 34 76 76-34 76-76 76-76-34-76-76z" fill="#fff9ef" stroke="#2b2420" stroke-width="7"/>
+    <path d="M62 110h92M78 72h60" stroke="#8b1e3f" stroke-width="12" stroke-linecap="round"/>
+    <path d="M176 42 222 20l22 50-50 18z" fill="#c9a45c" stroke="#2b2420" stroke-width="6"/>
+    <path d="M236 60c38 18 60 48 66 90" fill="none" stroke="#1f5c4b" stroke-width="11" stroke-linecap="round"/>
+  </g>
 </svg>
