@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="portal.css?v=mobile-fix">
 </head>
 <body>
-  <header class="site-header"><a class="mark" href="index.html">知識是永遠的勇者｜葉佳山網站</a><nav><a href="index.html">首頁</a></nav></header>
+  <header class="site-header"><a class="mark" href="index.html">知識是永遠的勇者｜葉佳山網站</a><nav><a href="index.html">首頁</a><a href="#consult-request">顧問委託</a></nav></header>
   <main>
     <section class="hero">
       <div><p class="eyebrow">Hospitality Consulting</p><h1>餐旅顧問系列</h1><p class="lead">整理餐旅顧問經歷，包含品牌診斷、菜單策略、服務流程、空間營運與創業輔導。</p></div>
@@ -27,6 +27,49 @@
           <article class="lesson-card"><h3>營運改善</h3><p>SOP、成本、動線、人力與服務接點。</p></article>
           <article class="lesson-card"><h3>創業輔導</h3><p>從想法驗證到菜單試賣與開店前準備。</p></article>
           <article class="lesson-card"><h3>教育訓練</h3><p>服務、管理、行銷、人資與主管計畫訓練。</p></article>
+        </div>
+        <div id="consult-request" class="consult-request">
+          <div class="consult-card">
+            <div class="consult-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M4 6h16v12H4z"></path>
+                <path d="m4 7 8 6 8-6"></path>
+                <path d="M8 21h8"></path>
+                <path d="M12 18v3"></path>
+              </svg>
+            </div>
+            <div>
+              <p class="eyebrow">Consult Request</p>
+              <h2>顧問委託諮詢</h2>
+              <p>業主可填寫委託需求，送出後會轉寄至 <strong>ocuforme@gmail.com</strong> 告知顧問。</p>
+            </div>
+          </div>
+          <form class="consult-form" action="https://formsubmit.co/ocuforme@gmail.com" method="POST" data-consult-form>
+            <input type="hidden" name="_subject" value="葉佳山網站｜餐旅顧問委託諮詢">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hidden-field">
+            <label>
+              <span>委託人</span>
+              <input type="text" name="委託人" autocomplete="name" required>
+            </label>
+            <label>
+              <span>地點</span>
+              <input type="text" name="地點" autocomplete="address-level2" required>
+            </label>
+            <label>
+              <span>聯絡方式</span>
+              <input type="text" name="聯絡方式" autocomplete="email" required>
+            </label>
+            <label class="full-field">
+              <span>委託諮詢內容</span>
+              <textarea name="委託諮詢內容" required></textarea>
+            </label>
+            <div class="consult-submit">
+              <button class="button primary" type="submit">送出顧問委託</button>
+              <p data-consult-status>送出後系統會將訊息轉寄給顧問信箱。</p>
+            </div>
+          </form>
         </div>
       </div>
     </section>
@@ -117,5 +160,6 @@
     </section>
   </main>
   <footer class="footer"><p>餐旅顧問系列｜葉佳山教學網站</p></footer>
+  <script src="portal.js?v=consult-request"></script>
 </body>
 </html>

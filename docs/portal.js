@@ -63,3 +63,12 @@ document.querySelectorAll("[data-upload-panel]").forEach((panel) => {
     selectedImage = "";
   });
 });
+
+document.querySelectorAll("[data-consult-form]").forEach((form) => {
+  form.addEventListener("submit", () => {
+    const status = form.querySelector("[data-consult-status]");
+    const button = form.querySelector("button[type='submit']");
+    if (status) status.textContent = "正在轉寄顧問委託訊息...";
+    if (button) button.textContent = "轉寄中";
+  });
+});
