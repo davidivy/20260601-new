@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-label="伯爵茶香雪花冰插畫">
+  <rect width="800" height="520" fill="#f7efe2"/>
+  <path d="M540 140h84c42 0 72 30 72 68s-30 68-72 68h-84" fill="none" stroke="#c9a45c" stroke-width="22"/>
+  <rect x="430" y="102" width="160" height="214" rx="30" fill="#fff9ef" stroke="#2b2420" stroke-width="10"/>
+  <path d="M458 170h104" stroke="#8b1e3f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M470 210h80" stroke="#1f5c4b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M186 340c28 72 246 72 274 0H186z" fill="#1f5c4b"/>
+  <ellipse cx="323" cy="340" rx="144" ry="36" fill="#c9a45c"/>
+  <path d="M224 320c34-86 162-88 196 0 10 26-12 54-42 54H266c-30 0-52-28-42-54z" fill="#fff9ef"/>
+  <path d="M272 326c44-28 92-28 138 0" fill="none" stroke="#8b1e3f" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#1f5c4b">
+    <ellipse cx="244" cy="190" rx="16" ry="46" transform="rotate(-36 244 190)"/>
+    <ellipse cx="298" cy="160" rx="16" ry="46" transform="rotate(-12 298 160)"/>
+    <ellipse cx="352" cy="178" rx="16" ry="46" transform="rotate(28 352 178)"/>
+  </g>
+  <text x="84" y="430" font-family="Georgia, 'Noto Serif TC', serif" font-size="52" fill="#2b2420">Earl Grey</text>
+  <text x="86" y="470" font-family="'Noto Sans TC', Arial, sans-serif" font-size="24" fill="#6a5650">焦糖伯爵雪花冰</text>
+</svg>

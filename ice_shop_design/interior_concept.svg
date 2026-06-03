@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="法式冰店室內示意圖">
+  <rect width="1400" height="900" fill="#F7EFE2"/>
+  <rect x="0" y="560" width="1400" height="340" fill="#E9DDCA"/>
+  <path d="M0 560h1400" stroke="#C9A45C" stroke-width="10"/>
+  <rect x="90" y="130" width="350" height="420" fill="#FFF9EF" stroke="#8B1E3F" stroke-width="10"/>
+  <path d="M140 510V280c0-70 55-125 125-125s125 55 125 125v230" fill="none" stroke="#1F5C4B" stroke-width="12"/>
+  <text x="265" y="615" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="34" fill="#8B1E3F">法式拍照牆</text>
+  <rect x="520" y="220" width="760" height="290" fill="#E8F2EC" stroke="#1F5C4B" stroke-width="10"/>
+  <rect x="550" y="250" width="700" height="230" fill="#F9FFFB" stroke="#C9A45C" stroke-width="4"/>
+  <text x="900" y="355" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="42" fill="#1F5C4B">透明製作區</text>
+  <text x="900" y="420" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="28" fill="#2B2420">雪花冰機・刨冰機・自製冰塊</text>
+  <rect x="560" y="610" width="240" height="120" fill="#FFF9EF" stroke="#C9A45C" stroke-width="6"/>
+  <rect x="850" y="610" width="240" height="120" fill="#FFF9EF" stroke="#C9A45C" stroke-width="6"/>
+  <circle cx="680" cy="670" r="38" fill="#8B1E3F"/>
+  <circle cx="970" cy="670" r="38" fill="#8B1E3F"/>
+  <rect x="1150" y="570" width="110" height="230" fill="#2B2420"/>
+  <rect x="1165" y="590" width="80" height="160" fill="#8B1E3F"/>
+  <text x="1205" y="775" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="22" fill="#FFF9EF">輪播</text>
+  <text x="700" y="825" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="32" fill="#2B2420">奶油白、酒紅、墨綠、香檳金：溫暖但有記憶點</text>
+</svg>
+

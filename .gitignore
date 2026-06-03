@@ -1,0 +1,4 @@
+outputs/
+**/server.log
+**/assets/local_candidates/
+.DS_Store

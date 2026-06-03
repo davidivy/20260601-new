@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="640" viewBox="0 0 1800 640" role="img" aria-label="La Neige 法式雪冰室招牌設計">
+  <rect width="1800" height="640" rx="0" fill="#F7EFE2"/>
+  <rect x="42" y="42" width="1716" height="556" fill="none" stroke="#C9A45C" stroke-width="16"/>
+  <rect x="70" y="70" width="1660" height="500" fill="none" stroke="#8B1E3F" stroke-width="4"/>
+  <g transform="translate(180 115) scale(.42)">
+    <circle cx="600" cy="430" r="250" fill="#FFF9EF" stroke="#C9A45C" stroke-width="18"/>
+    <path d="M420 550V380c0-100 80-180 180-180s180 80 180 180v170" fill="none" stroke="#8B1E3F" stroke-width="32" stroke-linecap="round"/>
+    <path d="M470 550V390c0-72 58-130 130-130s130 58 130 130v160" fill="none" stroke="#1F5C4B" stroke-width="16" stroke-linecap="round"/>
+    <g stroke="#C9A45C" stroke-width="14" stroke-linecap="round">
+      <path d="M600 305v250"/>
+      <path d="M492 368l216 124"/>
+      <path d="M708 368L492 492"/>
+    </g>
+    <path d="M365 620c80 64 390 64 470 0" fill="none" stroke="#2B2420" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <text x="870" y="240" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="132" fill="#2B2420" letter-spacing="12">LA NEIGE</text>
+  <text x="870" y="360" text-anchor="middle" font-family="'Noto Serif TC', 'Songti TC', serif" font-size="82" fill="#8B1E3F">法式雪冰室</text>
+  <text x="870" y="455" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="42" fill="#1F5C4B">雪花冰｜刨冰｜熱飲｜湯品</text>
+  <text x="1560" y="535" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="34" fill="#8B1E3F">透明製冰區</text>
+</svg>
+

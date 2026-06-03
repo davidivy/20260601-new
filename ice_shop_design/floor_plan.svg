@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1600" viewBox="0 0 1000 1600" role="img" aria-label="4x10公尺法式冰店平面圖">
+  <rect width="1000" height="1600" fill="#F7EFE2"/>
+  <text x="500" y="70" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="42" fill="#2B2420">4 x 10 公尺平面配置</text>
+  <rect x="100" y="130" width="800" height="1360" fill="#FFF9EF" stroke="#2B2420" stroke-width="8"/>
+  <rect x="100" y="130" width="800" height="110" fill="#8B1E3F"/>
+  <text x="500" y="200" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="34" fill="#FFF9EF">入口 / 外帶等候 / 菜單立牌</text>
+  <rect x="135" y="285" width="260" height="175" fill="#F7EFE2" stroke="#C9A45C" stroke-width="5"/>
+  <rect x="605" y="285" width="260" height="175" fill="#F7EFE2" stroke="#C9A45C" stroke-width="5"/>
+  <rect x="135" y="505" width="260" height="175" fill="#F7EFE2" stroke="#C9A45C" stroke-width="5"/>
+  <rect x="605" y="505" width="260" height="175" fill="#F7EFE2" stroke="#C9A45C" stroke-width="5"/>
+  <rect x="135" y="725" width="260" height="175" fill="#F7EFE2" stroke="#C9A45C" stroke-width="5"/>
+  <rect x="605" y="725" width="260" height="175" fill="#F7EFE2" stroke="#C9A45C" stroke-width="5"/>
+  <rect x="135" y="945" width="260" height="175" fill="#F7EFE2" stroke="#C9A45C" stroke-width="5"/>
+  <rect x="605" y="945" width="260" height="175" fill="#F7EFE2" stroke="#C9A45C" stroke-width="5"/>
+  <g font-family="'Noto Sans TC', Arial, sans-serif" font-size="28" fill="#2B2420" text-anchor="middle">
+    <text x="265" y="382">2-4 人桌</text>
+    <text x="735" y="382">2-4 人桌</text>
+    <text x="265" y="602">2-4 人桌</text>
+    <text x="735" y="602">2-4 人桌</text>
+    <text x="265" y="822">2-4 人桌</text>
+    <text x="735" y="822">2-4 人桌</text>
+    <text x="265" y="1042">2-4 人桌</text>
+    <text x="735" y="1042">2-4 人桌</text>
+  </g>
+  <line x1="500" y1="270" x2="500" y2="1135" stroke="#1F5C4B" stroke-width="8" stroke-dasharray="20 18"/>
+  <text x="500" y="1188" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="28" fill="#1F5C4B">中央走道 / 拍照動線</text>
+  <rect x="120" y="1230" width="300" height="220" fill="#E8F2EC" stroke="#1F5C4B" stroke-width="6"/>
+  <text x="270" y="1320" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="30" fill="#1F5C4B">透明製作區</text>
+  <text x="270" y="1370" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="24" fill="#1F5C4B">雪花冰機 / 刨冰機</text>
+  <rect x="450" y="1230" width="430" height="100" fill="#F7EFE2" stroke="#8B1E3F" stroke-width="6"/>
+  <text x="665" y="1292" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="30" fill="#8B1E3F">點餐櫃台 / 電子海報</text>
+  <rect x="450" y="1350" width="430" height="100" fill="#EFE6D8" stroke="#2B2420" stroke-width="6"/>
+  <text x="665" y="1412" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="30" fill="#2B2420">冷藏冷凍 / 備料</text>
+  <rect x="120" y="250" width="760" height="35" fill="#C9A45C"/>
+  <text x="500" y="275" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="24" fill="#2B2420">法式拍照牆 / 拱窗 / LOGO 燈箱</text>
+</svg>
+

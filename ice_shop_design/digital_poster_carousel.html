@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Neige 電子海報輪播</title>
+  <style>
+    :root {
+      --cream: #f7efe2;
+      --paper: #fff9ef;
+      --burgundy: #8b1e3f;
+      --green: #1f5c4b;
+      --gold: #c9a45c;
+      --cocoa: #2b2420;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #17120f;
+      font-family: "Noto Sans TC", "PingFang TC", Arial, sans-serif;
+      color: var(--cocoa);
+    }
+    .screen {
+      position: relative;
+      width: min(56.25vh, 100vw);
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      background: var(--cream);
+      border: 10px solid #302621;
+    }
+    .slide {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      padding: 78px 62px;
+      opacity: 0;
+      animation: show 36s infinite;
+    }
+    .slide:nth-child(2) { animation-delay: 6s; }
+    .slide:nth-child(3) { animation-delay: 12s; }
+    .slide:nth-child(4) { animation-delay: 18s; }
+    .slide:nth-child(5) { animation-delay: 24s; }
+    .slide:nth-child(6) { animation-delay: 30s; }
+    @keyframes show {
+      0%, 14% { opacity: 1; }
+      17%, 100% { opacity: 0; }
+    }
+    .brand {
+      font-family: Georgia, "Times New Roman", serif;
+      letter-spacing: 8px;
+      font-size: 48px;
+      color: var(--cocoa);
+    }
+    .tag {
+      margin-top: 12px;
+      color: var(--green);
+      font-size: 26px;
+    }
+    h1 {
+      margin: 90px 0 20px;
+      font-family: Georgia, "Noto Serif TC", serif;
+      font-size: 82px;
+      line-height: 1.06;
+      color: var(--burgundy);
+      letter-spacing: 0;
+    }
+    .price {
+      display: inline-block;
+      margin-top: 34px;
+      padding: 14px 24px;
+      border: 3px solid var(--gold);
+      color: var(--cocoa);
+      font-size: 44px;
+      font-weight: 700;
+      background: var(--paper);
+    }
+    .visual {
+      position: absolute;
+      right: -80px;
+      bottom: 180px;
+      width: 430px;
+      height: 430px;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 34% 28%, #fff 0 18%, transparent 19%),
+        radial-gradient(circle at 62% 38%, #ffe0e7 0 12%, transparent 13%),
+        radial-gradient(circle at 48% 62%, #ffd56b 0 16%, transparent 17%),
+        radial-gradient(circle at 55% 52%, #fff6f6 0 45%, #f3c8cf 46% 64%, #8b1e3f 65%);
+      border: 12px solid var(--gold);
+    }
+    .bottom {
+      border-top: 4px solid var(--gold);
+      padding-top: 22px;
+      font-size: 30px;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: center;
+    }
+    .qr {
+      width: 96px;
+      aspect-ratio: 1;
+      background:
+        linear-gradient(90deg, var(--cocoa) 12px, transparent 12px 24px, var(--cocoa) 24px 36px, transparent 36px),
+        linear-gradient(var(--cocoa) 12px, transparent 12px 24px, var(--cocoa) 24px 36px, transparent 36px);
+      background-size: 36px 36px;
+      border: 8px solid var(--paper);
+    }
+    .dark {
+      background: var(--green);
+      color: var(--paper);
+    }
+    .dark .brand, .dark h1, .dark .price { color: var(--paper); }
+    .dark .tag { color: #f2d99a; }
+    .dark .price { background: transparent; }
+    .dark .bottom { border-color: #f2d99a; }
+    .pink { background: #fff0f3; }
+    .gold { background: #fff5d6; }
+    .cocoa { background: #2b2420; color: var(--paper); }
+    .cocoa .brand, .cocoa h1 { color: #f2d99a; }
+    .cocoa .tag { color: #fff9ef; }
+  </style>
+</head>
+<body>
+  <main class="screen">
+    <section class="slide">
+      <div>
+        <div class="brand">LA NEIGE</div>
+        <div class="tag">法式雪冰室</div>
+        <h1>焦糖伯爵<br>雪花冰</h1>
+        <div class="price">NT$150</div>
+        <div class="visual"></div>
+      </div>
+      <div class="bottom"><span>招牌推薦｜茶香、焦糖、奶霜</span><span class="qr"></span></div>
+    </section>
+    <section class="slide pink">
+      <div>
+        <div class="brand">LA NEIGE</div>
+        <div class="tag">本月限定</div>
+        <h1>草莓玫瑰<br>雙人冰</h1>
+        <div class="price">雙人 NT$299</div>
+        <div class="visual"></div>
+      </div>
+      <div class="bottom"><span>IG 打卡標記送小配料</span><span class="qr"></span></div>
+    </section>
+    <section class="slide dark">
+      <div>
+        <div class="brand">LA NEIGE</div>
+        <div class="tag">透明製冰區</div>
+        <h1>自製冰塊<br>現點現刨</h1>
+        <div class="price">看得見的新鮮</div>
+      </div>
+      <div class="bottom"><span>雪花冰｜刨冰｜飲品｜湯品</span><span class="qr"></span></div>
+    </section>
+    <section class="slide gold">
+      <div>
+        <div class="brand">LA NEIGE</div>
+        <div class="tag">夏季人氣</div>
+        <h1>芒果香草<br>雪花冰</h1>
+        <div class="price">NT$150</div>
+        <div class="visual"></div>
+      </div>
+      <div class="bottom"><span>每日限量，售完為止</span><span class="qr"></span></div>
+    </section>
+    <section class="slide cocoa">
+      <div>
+        <div class="brand">LA NEIGE</div>
+        <div class="tag">冬季限定</div>
+        <h1>濃湯<br>熱飲套餐</h1>
+        <div class="price">NT$149 起</div>
+      </div>
+      <div class="bottom"><span>雨天、冬天也適合坐一下</span><span class="qr"></span></div>
+    </section>
+    <section class="slide">
+      <div>
+        <div class="brand">LA NEIGE</div>
+        <div class="tag">今日活動</div>
+        <h1>拍照打卡<br>送小配料</h1>
+        <div class="price">追蹤 IG 即可兌換</div>
+      </div>
+      <div class="bottom"><span>@laneige_ice</span><span class="qr"></span></div>
+    </section>
+  </main>
+</body>
+</html>
